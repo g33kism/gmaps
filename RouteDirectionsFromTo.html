@@ -70,7 +70,7 @@
 			  var duration = response.routes[0].legs[0].duration.text;
 			  var fromLoc = response.routes[0].legs[0].start_address;
 			  var toLoc = response.routes[0].legs[0].end_address;
-			  var steps = 'From '+fromLoc+' to '+toLoc+' can be reached by below route in '+duration+ ' travelling '+ distance;
+			  var steps = 'From '+fromLoc+' to '+toLoc+' can be reached by below route in '+duration+ ' travelling '+ distance +'<br/>';
               for (var i = 0; i < response.routes[0].legs[0].steps.length; i++) {
                 steps += response.routes[0].legs[0].steps[i].instructions + " For "+response.routes[0].legs[0].steps[i].distance.text + "<br/>";
               }
