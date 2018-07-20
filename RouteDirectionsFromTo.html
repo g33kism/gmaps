@@ -66,8 +66,8 @@
             } else {
 			  directionsDisplay.setDirections(response);
               var outputDiv = document.getElementById('output');
-			  var distance = response.routes[0].legs[0].distance;
-			  var duration = response.routes[0].legs[0].duration;
+			  var distance = response.routes[0].legs[0].distance.text;
+			  var duration = response.routes[0].legs[0].duration.text;
 			  var fromLoc = response.routes[0].legs[0].start_address;
 			  var toLoc = response.routes[0].legs[0].end_address;
 			  var steps = 'From '+fromLoc+' to '+toLoc+' can be reached by below route in '+duration+ ' travelling '+ distance;
