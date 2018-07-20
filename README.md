@@ -2,7 +2,7 @@
 - Goto: [https://developers.google.com/maps/web/](https://developers.google.com/maps/web/) and click "GET A KEY"
 - alternately goto: [https://console.developers.google.com/apis](https://console.developers.google.com/apis) and create a project.
 
-### Main Agenda: -- JsMaps.html
+### Main Agenda: -- [JsMaps.html](https://gunrajsm.github.io/gmaps/JsMaps.html)
 * Maps with Marker
 * Geolocation
 * Events handling
@@ -11,8 +11,8 @@
 
 
 ### Additional Agenda:
-* Static Maps API --StaticMap.html
-* Distance Calculation --Distance.html
+* Static Maps API --[StaticMap.html](https://gunrajsm.github.io/gmaps/StaticMap.html)
+* Distance Calculation --[Distance.html](https://gunrajsm.github.io/gmaps/Distance.html)
 
 ### References:
 Docs:
